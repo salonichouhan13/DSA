@@ -9,7 +9,15 @@ int LargestElement(vector<int> array,int n){
   }
   return largest;
 }
-
+int SmallestElement(vector<int> array,int n){
+  int smallest = array[0];
+  for(int i= 0; i<n; i++){
+    if(array[i]<smallest){
+      smallest = array[i];
+    }
+  }
+  return smallest;
+}
 int main(){
   int n;
   cout<<"enter size of array";
@@ -23,6 +31,7 @@ int main(){
   }
   //call function
   cout<<"largest element is = "<<LargestElement(array,n)<<endl;
- 
+  cout<<"smallest element is = "<<SmallestElement(array,n)<<endl;
+  cout<<"sum = "<<LargestElement(array,n) +SmallestElement(array,n);
   return 0;
 }
