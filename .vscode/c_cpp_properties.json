@@ -7,7 +7,7 @@
     "C:/MinGW/include",
     "C:/MinGW/lib/gcc/mingw32/6.3.0/include",
     "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++"
-]
+],
       "compilerPath": "C:/MinGW/bin/g++.exe",
       "cStandard": "${default}",
       "cppStandard": "${default}",
