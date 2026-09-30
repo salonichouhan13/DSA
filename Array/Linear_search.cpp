@@ -15,7 +15,7 @@ int linearSearch(vector<int> Array, int num) {
 int main() {
 
     int n;
-    cout << "Enter size: ";
+    cout << "Enter size of an array: ";
     cin >> n;
 
     vector<int> Array(n);
